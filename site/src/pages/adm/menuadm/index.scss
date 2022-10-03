@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../../../../public/assets/fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PatuaOne';
+    src: url('../../../../public/assets/fonts/PatuaOne-Regular.ttf');
+}
+
+.page-menu{
+    display: flex;
+    
+}
+
+.menu-corpo{
+    background-image: url('../../../../public/assets/images/Rectangle\ 12022.png') ;
+    width: 285px;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    flex-direction: column;
+
+}
+
+
+.sair-menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+
+.text-sair{
+    font-family: 'Roboto-bold' ;
+    padding-left: 6px;
+    font-size: 15px;
+   
+    
+}
+
+.centro{
+    background-color: #262D37;
+    width: 100%;
+}
+
+
+
+.bem-vindo{
+    font-family: 'PatuaOne';
+    font-size: 63px;
+    color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.linha-1{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+ 
+    margin-top: 2em;
+   
+    
+}
+
+.co-1{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 249px;
+    height: 233px;
+
+    font-family: 'PatuaOne';
+    font-size: 24px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+    cursor: pointer;
+   margin-right: 3em;
+   
+}
+
+.co-1:hover{
+   
+    transform: scale(1.10);
+    border-radius: 1em;
+    
+}
+
+
+    
+
+.co-2{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 249px;
+    height: 233px;
+
+    font-family: 'PatuaOne';
+    font-size: 24px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+   
+}
+
+
+.co-2:hover{
+   
+    transform: scale(1.10);
+    border-radius: 1em;
+    
+}
+
+
+.text-historico{
+    width: 9em;
+}
+
+
+.linha-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    margin-top: 2em;
+   
+}
+
+.co-3{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 249px;
+    height: 233px;
+
+    font-family: 'PatuaOne';
+    font-size: 24px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 3em;
+   
+    
+   
+}
+
+
+.co-3:hover{
+   
+    transform: scale(1.10);
+    border-radius: 1em;
+    
+}
+
+
+
+.co-4{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 249px;
+    height: 233px;
+
+    font-family: 'PatuaOne';
+    font-size: 24px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.co-4:hover{
+   
+    transform: scale(1.10);
+    border-radius: 1em;
+    
+}
+
+.conten img{
+    width: 103px;
+    height: 103px;
+
+    
+}

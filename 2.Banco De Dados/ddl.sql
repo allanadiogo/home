@@ -1,6 +1,8 @@
 create database lenhaaSul;
 use lenhaaSul;
 
+drop database lenhaaSul;
+
 create table tb_usuario (
 	id_usuario         int primary key auto_increment,
     nm_usuario        varchar(200),
@@ -65,7 +67,16 @@ create table tb_pagamento_pix (
         nr_pix						varchar(200),
         foreign key (id_pedido) references tb_pedido (id_pedido)
         
-        );      
+        );
+        
+        
+        create table tb_admin (
+			
+		id_admin		int primary key auto_increment,
+        ds_email		varchar(200),
+        ds_senha    	varchar(200)
+        
+        );
         
 
  create table tb_categoria (
@@ -75,15 +86,19 @@ create table tb_pagamento_pix (
         
 create table tb_produto (
 		
-        id_produto				int primary key auto_increment,
+        id_produto			int primary key auto_increment,
+        id_admin	                int,
         id_categoria			int,
         img_produto 			varchar(100),
-        vl_preco				    decimal(12.5),
-        nm_produto			    varchar(100),       					
-        ds_ingredientes		varchar(100),
-        foreign key (id_categoria) references tb_categoria (id_categoria)
+        nm_produto			varchar(100), 
+        ds_ingredientes		        varchar(300),
+        vl_preco		        decimal(12.5),
+     	foreign key (id_categoria) references tb_categoria (id_categoria),
+	   foreign key (id_admin) references tb_admin (id_admin)
         
         );
+        
+    
         
         create table tb_pedido_item (
 		
@@ -94,16 +109,3 @@ create table tb_produto (
         foreign key (id_pedido) references tb_pedido (id_pedido)
         
         );
-        
-
-create table tb_admins (
-			
-		id_admin		int primary key auto_increment,
-        ds_email		varchar(200),
-        ds_senha    	varchar(200)
-        
-        );
-        
-        
-
-        
