@@ -5,8 +5,9 @@ import Home from './pages/home'
 import HomeComponent2 from './componentes/homeComponent2'
 import Rodape from './componentes/roda-pe'
 
+import Ingresso from './pages/ingresso'
+
 import LoginAdm from './pages/adm/loginadm'
-import MenuAdm from './pages/adm/menuadm'
 import Cadastrar from './pages/adm/cadastrarProduto'
 import ConsultarPedidos from './pages/adm/consultarPedidos'
 
@@ -29,9 +30,10 @@ export default function Index(){
            <Route path='/homeComponent2' element={<HomeComponent2/>} />
            <Route path='/rodape' element={<Rodape/>} />
 
+           <Route path='/ingresso' element={<Ingresso/>} />
+
 
             <Route path='/loginadm' element={<LoginAdm/>} />
-            <Route path='/menuadm' element={<MenuAdm/>} />
             <Route path='/cadastrar' element={<Cadastrar/>} />
             <Route path='/consultarPedidos' element={<ConsultarPedidos/>} />
 

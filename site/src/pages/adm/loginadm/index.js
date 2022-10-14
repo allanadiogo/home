@@ -21,7 +21,7 @@ export default function Index(){
 
     useEffect(() => {
         if(storage('adm-logado')){
-            navigate('/menuadm');
+            navigate('/');
         }
     })
 
