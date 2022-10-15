@@ -1,37 +1,11 @@
-@font-face {
-    font-family: 'Timmana';
-    src: url('../../../../public/assets/fonts/Timmana-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'PatuaOne regular';
-    src: url('../../../../public/assets/fonts/PatuaOne-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url('../../../../public/assets/fonts/Montserrat-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url('../../../../public/assets/fonts/Roboto-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url('../../../../public/assets/fonts/Roboto-Regular.ttf');
-}
-
-
 .main-login-usuario{
     background: url('../../../../public/assets/images/fundoamarelo.png') no-repeat center fixed ;
     background-size: cover;
     width: 100%;
-    height: 736px;
+    height: 917px;
     font-weight: bold;
     margin-right: 30px;
-    overflow: auto;   
+    overflow: hidden;   
     
 }
 
@@ -61,15 +35,13 @@
 
 
 .Input-Email-usuario {
-  
-    font-family: 'Montserrat-Regular';
+    font-family: 'font3';
     text-align: left;
     padding-left: 5em;
     border: 1px  #F1F2F3;
-    
-
     width: 319px;
     height: 49px;
+    outline: none;
    
 }
 
@@ -95,20 +67,17 @@
     position: relative;
     background-color: #F1F2F3;
     margin-top: 1em;
+    
 }
 
 .Input-Senha-usuario {
-    font-family: 'Montserrat-Regular';
+    font-family: 'font3';
     text-align: left;
     padding-left: 5em;
     border: 1px  #F1F2F3;
-  
     width: 319px;
     height: 49px;
-
-   
-
-
+    outline: none;
 }
 
 
@@ -121,11 +90,8 @@
 
 
 
-
-
-
 .botao-home-usuario{
-    font-family:'Timmana';
+    font-family:'font8';
     font-size: 20px;
     text-decoration: none;
     color: #000000;
@@ -145,22 +111,20 @@
 .botao1-usuario{
     margin-right: 2em;
 
+
 }
 
 .botao-entrar-usuario{
-
     background-color: black;
     border: 0;
     color: #FFFFFF;
     font-size: 23px;
-    padding-top: 6px;
-
-   
-
+    padding-top: 2px;
     cursor: pointer;
     height: 39px;
     width: 199px;
-   align-self: center;
+    align-self: center;
+    border-radius: 3px;
  
     
    
@@ -175,14 +139,11 @@
 }
 
 .botao-criar-usuario{
-    
     background-color: #33B746;
     border: 0;
     color: #FFFFFF;
     font-size: 18px;
-    padding-top: 6px;
-
-
+    padding-top: 2px;
     cursor: pointer;
     height: 39px;
     width: 162px;
@@ -200,7 +161,7 @@
 }
 
 .text-login-usuario {
-    font-family: 'PatuaOne regular';
+    font-family: 'font4';
     font-size: 32px;
     padding: 1em;
 
@@ -209,7 +170,7 @@
 
 ::placeholder {
     color: #ADADAD;
-    font-family:'Montserrat-Regular';
+    font-family:'font3';
     
     font-size: 16px;
     
@@ -217,8 +178,12 @@
 
 .esqueceu-usuario{
   margin-top: 2em;
-  font-family: 'Roboto-Regular';
+  font-family: 'font6';
 
+}
+
+.esq-sen{
+    padding-right: 1px;
 }
 
 
