@@ -2,6 +2,8 @@ import './index.scss'
 
 export default function Index(){
     return (
-    <h1>d;d</h1>
+        <main>
+        <a href='/informarPagamento'>informar</a>
+        </main>
     )
 }

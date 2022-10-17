@@ -19,7 +19,7 @@ import RegistrarUsuario from './pages/usuario/registrarUsuario'
 
 import QrPix from './pages/usuario/qrPix'
 import InformarPagamento from './pages/usuario/informarPagamento'
-
+import DadosCartao from './pages/usuario/dadosCartao'
 
 export default function Index(){
     return(
@@ -45,6 +45,8 @@ export default function Index(){
             <Route path='/registrarUsuario' element={<RegistrarUsuario/>} />
 
             <Route path='/qrPix' element={<QrPix/>} />
+            <Route path='/dadosCartao' element={<DadosCartao/>} />
+ 
             <Route path='/informarPagamento' element={<InformarPagamento/>} />
 
 

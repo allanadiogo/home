@@ -8,17 +8,36 @@ export default function Index(){
 
         <section className='section-pagamentos'>  
         
-        <div className='div'>
+     <h1 className='titulo-pagamento'>Escolha um meio de pagamento</h1>
+           
+           <div className='div-botoes' >
+           
+           <a className='div-botoes' href='/dadoscartao'>
+           <button  className='dinheiro'> <img className='foto1' src='/assets/images/Money.png'/> Dinheiro  </button>  
+           </a>
 
-     
-            <button className='dinheiro'> <img className='foto1' src='/assets/images/Money.png'/> Dinheiro  </button>  
-     
+           <a className='div-botoes' href='/dadoscartao'>
+            <button   className='dinheiro'> <img className='foto1' src='/assets/images/credito.png'/> Crédito  </button>  
+       </a>
+
+       <a className='div-botoes' href='/dadoscartao'>
+            <button   className='dinheiro'> <img className='foto1' src='/assets/images/debito.png'/> Débito </button>  
+     </a>
+
+     <a className='div-botoes' href='/dadoscartao'>
+            <button    className='dinheiro'> <img className='foto1' src='/assets/images/valerefeicao.png'/> Vale-refeição  </button>  
+         </a>
+
+         <a className='div-botoes' href='/qrPix'>
+            <button   className='dinheiro'> <img className='foto1' src='/assets/images/pix.png'/> Pix </button>  
+     </a>
+       
+            </div>
             
-            
-            <button className='dinheiro'> <img className='foto1' src='/assets/images/Money.png'/> Crédito  </button>  
-           </div>
             
            </section>
+
+      
          
         
 
